@@ -1,8 +1,17 @@
-/*box on side bar*/
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+#myBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 93%;
+    max-width: 70px;
+    width: 100%;
+    font-size: 18px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: #2a607c;
+    padding: .5px;
+    border-radius: 4px;
+
 }
 
 /*background color for entire application*/
@@ -19,20 +28,20 @@ body {
 }
 
 /*Horiseon main header*/
-.header h1 {
+#Hori-n {
     display: inline-block;
     font-size: 48px;
     
 }
 
 /*color difference on "seo" in Horiseon main header // made a little darker*/
-.header h1 .seo {
+#seo {
     color: #c0c2bf;
     
 }
 
 /*top of page header quick links*/
-.header div {
+.quick-links {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -73,6 +82,36 @@ p {
     background-position: center;
 }
 
+/*box behind search-engine-optimization*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*box behind nline-reputation-management*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*box behind social-media-marketing*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
 /*paragraph picture location to left*/
 .float-left {
     float: left;
@@ -85,11 +124,53 @@ p {
     margin-left: 25px;
 }
 
+/*search-engine-optimization imgage*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/*online-reputation-management imgage*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/*social-media-marketing imgage*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+
+/*search-engine-optimization header title*/
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*online-reputation-management title*/
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*social-media-marketing header title*/
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 /*main content spacing postion*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    position: relative;
+}
+
+
+/*box on side bar*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 /*side bar box*/
@@ -161,67 +242,6 @@ p {
     max-width: 150px;
 }
 
-/*box behind search-engine-optimization*/
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*box behind nline-reputation-management*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*box behind social-media-marketing*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*search-engine-optimization imgage*/
-.search-engine-optimization img {
-    max-height: 200px;
-}
-/*online-reputation-management imgage*/
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-/*social-media-marketing imgage*/
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/*search-engine-optimization header title*/
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*online-reputation-management title*/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/*social-media-marketing header title*/
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /*footer looks*/
 .footer {
