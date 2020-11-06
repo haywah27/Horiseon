@@ -17,6 +17,7 @@ body {
     background-color: #2a607c;
     padding: .5px;
     border-radius: 4px;
+    color: white;
 }
 
 /* header bar at top of page: inclues "Horiseon title" and quick links */
@@ -36,7 +37,7 @@ body {
 
 /* color difference on "seo" in Horiseon main header // made a little darker */
 #seo {
-    color: #c0c2bf;
+    color: #d6dcd6;
 }
 
 /* top of page header quick links */
@@ -53,7 +54,6 @@ body {
 .padding-space {
     display: inline-block;
     margin-left: 35px;
-    
 }
 
 /* color of quick links */
@@ -72,38 +72,39 @@ a {
     background-position: center;
 }
 
-/* font size of paragraph text */
+/* header attributes for main content */
+.content-header {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+/* font size of paragraph text on whole page */
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
-/* paragraph picture location toward left */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-/* paragraph picture location toward right */
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-/* main content spacing postion */
+/* main content spacing  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    position: relative;
 }
 
-/* search-engine-optimization header title */
-#search-engine-optimization-header {
-    margin-bottom: 20px;
-    font-size: 36px;
+/* main content image location toward left and image height*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
 }
 
-/* boxs behind main content */
+/* main content image location toward right and image height */
+.float-right {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+
+/* boxes behind main content */
 .content-box {
     margin-bottom: 20px;
     padding: 50px;
@@ -113,32 +114,6 @@ p {
     color: #ffffff;
 }
 
-/* search-engine-optimization image */
-#search-engine-optimization-img {
-    max-height: 200px;
-}
-
-/* online-reputation-management title */
-#online-reputation-management-header {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* online-reputation-management imgage */
-#online-reputation-management-img {
-    max-height: 200px;
-}
-
-/* social-media-marketing header title */
-#social-media-marketing-header {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* social-media-marketing image */
-#social-media-marketing-img {
-    max-height: 200px;
-}
 
 /* elements on the side bar's ability to properly move with screen resizing */
 * {
@@ -159,62 +134,25 @@ p {
     background-color: #2589bd;
 }
 
-/* side bar lead generation content (affecting to words and png) */
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* side bar lead generation header */
-#benefit-lead-header {
+/* side bar headers */
+.benefit-header {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* side bar lead generation image */
-#benefit-lead-img {
+/* side bar image attributes */
+.benefit-images {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* side bar brand awareness content (affecting to words and png) */
-.benefit-brand {
+/* side bar lead generation content (affecting to paragraph blurbs) */
+.benifit-content {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* side bar brand awareness header */
-#benefit-brand-header {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* side bar brand awareness image */
-#benefit-brand-img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* side bar cost management content (affecting to words and png)*/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/* side bar cost management header */
-#benefit-cost-header {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* side bar cost management image */
-#benefit-cost-img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
 /* footer appearance */
 .footer {
