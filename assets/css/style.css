@@ -3,7 +3,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* back to top button */
+/* back to top button
 #myBtn {
     position: fixed;
     bottom: 10px;
@@ -18,7 +18,7 @@ body {
     padding: .5px;
     border-radius: 4px;
     color: white;
-}
+} */
 
 /* header bar at top of page: inclues "Horiseon title" and quick links */
 .header {
@@ -27,12 +27,17 @@ body {
     background-color: #2a607c;
     color: #ffffff;
     position: relative;
+    /* width: 100%; */
+    
 }
 
 /* Horiseon main header */
 #Hori-n {
-    display: inline-block;
+    /* display: inline-block; */
+    top: 10px;;
     font-size: 48px;
+    padding-right: 20px;
+    position: relative;
 }
 
 /* color difference on "seo" in Horiseon main header // made a little darker */
@@ -42,12 +47,13 @@ body {
 
 /* top of page header quick links */
 .quick-links {
-    right: 50px;
-    top: 40%;
-    float: right;
+    padding-right: 10px;
+    margin-right: 0%;
+    margin-left: 40%;
+    top: -28px;
+    position: relative;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    position: absolute;
 }
 
 /* padding between header quick links */
@@ -70,6 +76,7 @@ a {
     background-image: url("../images/modified-images/digital-marketing-meeting-modified.jpg");
     background-size: cover;
     background-position: center;
+   
 }
 
 /* header attributes for main content */
