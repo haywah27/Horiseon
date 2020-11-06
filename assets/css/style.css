@@ -28,7 +28,7 @@ body {
     color: #ffffff;
     position: relative;
     /* width: 100%; */
-    
+
 }
 
 /* Horiseon main header */
@@ -83,11 +83,13 @@ a {
 .content-header {
     margin-bottom: 20px;
     font-size: 32px;
+    position: relative;
 }
 
 /* font size of paragraph text on whole page */
 p {
     font-size: 18px;
+    position: relative;
 }
 
 /* main content spacing  */
@@ -95,30 +97,42 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    position: relative;
 }
 
 /* main content image location toward left and image height*/
 .float-left {
     float: left;
+    top: 25%;
+    bottom: 25%;
     margin-right: 25px;
+    margin-bottom: 20px;
     max-height: 200px;
+    position: relative;
 }
 
 /* main content image location toward right and image height */
 .float-right {
     float: right;
+    top: 25%;
+    bottom: 25%;
+    margin-right: 0px;
     margin-left: 25px;
+    margin-bottom: 20px;
     max-height: 200px;
+    position: relative;
 }
 
 /* boxes behind main content */
 .content-box {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    position: relative;
+    min-height: 300px;
+    min-width: 500px;
 }
 
 
@@ -127,10 +141,12 @@ p {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    position: relative;
 }
 
 /* side bar box attributes */
 .benefits {
+    margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -139,6 +155,8 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    position: relative;
+    min-width: 20%;
 }
 
 /* side bar headers */
