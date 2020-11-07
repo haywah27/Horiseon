@@ -3,6 +3,14 @@ body {
     background-color: #d9dcd6;
 }
 
+/* asetting all elements to have zero margins, and zero padding */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
 /* back to top button
 #myBtn {
     position: fixed;
@@ -27,13 +35,10 @@ body {
     background-color: #2a607c;
     color: #ffffff;
     position: relative;
-    /* width: 100%; */
-
 }
 
 /* Horiseon main header */
 #Hori-n {
-    /* display: inline-block; */
     top: 10px;;
     font-size: 48px;
     padding-right: 20px;
@@ -47,9 +52,9 @@ body {
 
 /* top of page header quick links */
 .quick-links {
-    /* padding-right: 10px; */
-    margin-right: 0%;
-    margin-left: 40%;
+    margin-right: -1%;
+    margin-left: 24%;
+    padding-left: 60px;
     top: -28px;
     position: relative;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -76,11 +81,6 @@ a {
     background-image: url("../images/modified-images/digital-marketing-meeting-modified.jpg");
     background-size: cover;
     background-position: center;
-   
-}
-
-.project-spacing {
-    position: absolute;
 }
 
 /* header attributes for main content */
@@ -110,7 +110,7 @@ p {
 
 /* main content spacing  */
 .content {
-    width: 75%;
+    width: 74%;
     display: inline-block;
     margin-left: 20px;
     position: relative;
@@ -139,14 +139,6 @@ p {
     position: relative;
 }
 
-
-/* elements on the side bar's ability to properly move with screen resizing */
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    position: relative;
-}
 
 /* side bar box attributes */
 .benefits {
@@ -185,7 +177,6 @@ p {
     color: #ffffff;
     position: relative;
 }
-
 
 /* footer appearance */
 .footer {
